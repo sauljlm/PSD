@@ -126,6 +126,7 @@ a{
   margin-bottom: 0;
   padding-bottom: 0;
   margin-bottom: 1.5%;
+  font-size: 16px;
 }
 .ramdom{
   width: 205px;
@@ -146,7 +147,19 @@ a{
 /****************
       Info
 *****************/
-
+.infolorem{
+  width: 70%;
+}
+#info{
+  position: relative;
+}
+.titulo_derecha {
+  float: right;
+  font-size: 16px;
+  position: absolute;
+  left:80%;
+  top:-10%;
+}
 /****************
       Footer
 *****************/
