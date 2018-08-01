@@ -152,6 +152,7 @@ a{
 }
 #info{
   position: relative;
+  margin-bottom: 30px;
 }
 .titulo_derecha {
   float: right;
@@ -163,3 +164,19 @@ a{
 /****************
       Footer
 *****************/
+#footer{
+  width: 1600px;
+  background-color: rgb(226, 226, 226);
+  padding: 20px 0;
+  position: relative;
+}
+.infooter{
+  width: 960px;
+  margin-left: 25px;
+}
+.logo-bottom{
+  width: 8%;
+  position: absolute;
+  bottom: 27px;
+  left: 851px;
+}
