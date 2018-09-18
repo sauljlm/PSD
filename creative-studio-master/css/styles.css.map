@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB",
+"sources": ["../sass/partials/_header.scss","../sass/partials/_content.scss","../sass/partials/_footer.scss","../sass/partials/_info.scss","../sass/partials/_portfolio.scss"],
+"names": [],
+"file": "styles.css"
+}
