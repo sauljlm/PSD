@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB",
-"sources": ["../sass/partials/_header.scss","../sass/partials/_content.scss","../sass/partials/_footer.scss","../sass/partials/_info.scss","../sass/partials/_portfolio.scss"],
+"mappings": "AAAA;;oBAEoB;ACDpB,IAAI;EACA,MAAM,EAAE,CAAC;EACT,UAAU,ECFD,kBAAkB;EDG3B,WAAW,ECFR,4BAA4B;;ADInC,UAAU;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;;AAElB,CAAC;EACG,eAAe,EAAE,IAAI;;AAGzB,gBAAgB;EACZ,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,IAAI;;AAEf,QAAQ;EACJ,aAAa,EAAE,iBAAqB;EACpC,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,IAAI;;AEtBxB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB;ACFpB;;oBAEoB",
+"sources": ["../sass/partials/_header.scss","../sass/partials/_general.scss","../sass/includes/_settings.scss","../sass/partials/_content.scss","../sass/partials/_footer.scss","../sass/partials/_info.scss","../sass/partials/_portfolio.scss"],
 "names": [],
 "file": "styles.css"
 }

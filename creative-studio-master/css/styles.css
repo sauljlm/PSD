@@ -1,6 +1,28 @@
 /****************
         Header
   *****************/
+body {
+  margin: 0;
+  border-top: 17px solid #090909;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#container {
+  width: 960px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.bb-line {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
 /****************
         Content
   *****************/
