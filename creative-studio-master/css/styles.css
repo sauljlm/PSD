@@ -1,6 +1,42 @@
 /****************
         Header
-  *****************/
+*****************/
+.correo {
+  color: #999898;
+  font-size: 13px;
+  position: absolute;
+  top: 18px;
+  right: 0; }
+
+#header {
+  position: relative;
+  margin-top: 20px; }
+
+.logo {
+  float: left; }
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 46px 0 0;
+  padding: 0; }
+
+.menu a {
+  color: #fe9b00;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.menu a:hover,
+.link-active {
+  color: black !important; }
+
+.menu li {
+  display: inline; }
+
+.menu li + li {
+  margin-left: 65px; }
+
 body {
   margin: 0;
   border-top: 17px solid #090909;
