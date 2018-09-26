@@ -1,0 +1,24 @@
+/****************
+    Portfolio
+*****************/
+#portfolio {
+      border-bottom: 1px solid #c0c0c0;
+      margin-bottom: 20px;
+      padding-bottom: 30px;
+}
+    
+#portfolio h2 img {
+      margin-right: 20px;
+      height: 10px;
+      padding-bottom: 3px;
+}
+    
+#portfolio h2 {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+}
+    
+#portfolio img + img {
+      margin-left: 28px;
+}
