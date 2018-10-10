@@ -2,20 +2,26 @@
       Content
 *****************/
 .box h2 {
-      border-bottom: 8px solid black;
+      
       padding-bottom: 10px;
       text-transform: uppercase;
       font-size: 18px;
       font-weight: bold;
 }
 .box{
-      width: 285px;
+      width: 29%;
       float: left;
-      margin-left: 52px;
+      margin-left: 5.4%;
       }
       
-      .box ul {
-      list-style-image: url('../img/Diseño/checkicon.jpg');
+      .box li {
+      list-style: none;
+      }
+      .box li p::before{
+            position: absolute;
+            content: url('../img/Diseño/checkicon.jpg');
+            top: 0;
+            left: -30px;
       }
       
       .box:first-child{
@@ -50,3 +56,6 @@ text-transform: uppercase;
 color: #090909;
 font-style: italic;
 }
+
+
+

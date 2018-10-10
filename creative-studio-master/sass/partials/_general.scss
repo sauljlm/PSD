@@ -1,11 +1,10 @@
 //general//
 body{
     margin: 0;
-    border-top: $borderTop;
     font-family: $font;
 }
-#container{
-    width: 960px;
+ .container{
+    max-width: 960px;
     margin: 0 auto;
 }
 a{
@@ -21,4 +20,17 @@ a{
     border-bottom: 1px solid $line-color;
     margin-bottom: 20px;
     padding-bottom: 20px;
+}
+#container{
+    border-top: 8px solid black;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+#slider{
+    padding-top: 171px;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
 }

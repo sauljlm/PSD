@@ -1,5 +1,5 @@
 @import 'includes/settings';
-@import 'includes/mixins';
+@import 'includes/normalize';
 
 @import 'partials/header';
 @import 'partials/general';
@@ -7,3 +7,4 @@
 @import 'partials/footer';
 @import 'partials/info';
 @import 'partials/portfolio';
+@import 'breakpoints/breakpoints';

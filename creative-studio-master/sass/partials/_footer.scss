@@ -5,12 +5,13 @@
       background-color: #e2e2e2;
       position: absolute;
       width: 100%;
+      padding: 30px 0;
     }
     
     #footer-menu{
       list-style: none;
       padding: 10px;
-      width: 960px;
+      width: 100%;
       margin: 0 auto;
     }
     
@@ -27,7 +28,7 @@
       color: #090909;
       font-size: 12px;
       margin: 0px;
-      width: 960px;
+      width: 100%;
       margin: 0 auto;
     }
     
@@ -37,20 +38,24 @@
       padding-left: 5px;
     }
     
-    .logo-footer {
-      height: 63px;
-      position: relative;
+    .footer-logo{
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      right: 0;
+      width: 120px;
+      bottom: -15px;
     }
     
     .container-footer {
       position: relative;
     }
     
-    .img-container {
+    /*.img-container {
       position: relative;
-      width: 960px;
+      width: 100%;
       margin: 0 auto;
       left: 850px;
       bottom: 30px;
-    }
+    }*/
     

@@ -10,10 +10,19 @@
 }
 #header{
       position: relative;
-      margin-top: 20px;
+      width: 960px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c0c0c0;
+      position: fixed;
+      background-color: white;
+      padding: 20px 0px;
+      top: 8px;
+
 }
-    
 .logo{
+      max-width: 100%;
+      height: auto;
       float: left;
 }
 .menu{
