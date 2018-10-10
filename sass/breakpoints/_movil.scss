@@ -1,0 +1,27 @@
+@media (max-width: $breakpoint-sm){
+    .icon_menu{
+        width: 25%;
+    }
+    #portfolio {
+        .portfolio_img{
+              width: 96%;
+              padding: 2%;
+        }
+    }
+    #footer-menu{
+        display: none;
+    }
+    .container-footer{
+        p{
+			text-align: center;
+		}
+    }
+    .footer-logo{
+        width: 100px;
+        position: relative;
+        right: auto;
+        bottom: auto;
+        display: block;
+		margin: 20px auto ;
+    }
+}

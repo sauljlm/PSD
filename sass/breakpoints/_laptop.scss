@@ -1,0 +1,14 @@
+@media (max-width: $breakpoint-lg){
+    #portfolio {
+        .portfolio_img{
+              width: 23%;
+        }
+        img + img {
+            margin-left: 2.5%;
+        }
+    }
+    .menu li + li {
+    	margin-left: 40px;
+	}
+  
+}

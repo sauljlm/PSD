@@ -1,0 +1,59 @@
+/****************
+        Header
+*****************/
+.correo{
+      color: #999898;
+      font-size: 13px;
+      position: absolute;
+      top: 18px;
+      right: 0;
+}
+#header{
+      position: relative;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c0c0c0;
+      position: fixed;
+      background-color: white;
+      padding: 20px 0px;
+      top: 8px;
+
+}
+.logo{
+      max-width: 100%;
+      height: auto;
+      float: left;
+}
+.menu{
+      float: right;
+      list-style: none;
+      margin: 46px 0 0;
+      padding: 0;
+}
+.menu a{
+      color: #fe9b00;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+}
+.menu a:hover,
+.link-active{
+      color: black !important;
+}
+    
+.menu li{
+      display: inline;
+}
+    
+.menu li + li{
+      margin-left: 65px;
+}
+.icon_menu{
+      width: 15%;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      display: none;
+}

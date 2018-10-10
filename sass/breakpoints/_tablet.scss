@@ -1,0 +1,29 @@
+@media (max-width: $breakpoint-md){
+    #portfolio {
+        .portfolio_img{
+              width: 46%;
+              padding: 2%;
+        }
+        img + img {
+            margin-left: 0;
+        }
+    }
+    .menu{
+    	display: none;
+    }
+    .blog-box2{
+        display: none;
+    }
+    .blog-box1{
+        width: 100%;
+        margin-right: 0;
+    }
+    .box{
+        width: 100%;
+        margin-left: 0;
+    }
+    //icon
+    .icon_menu{
+        display: block;
+    }
+}
