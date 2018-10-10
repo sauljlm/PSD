@@ -10,6 +10,7 @@
 }
 #header{
       position: relative;
+      max-width: 960px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 20px;
@@ -49,4 +50,10 @@
 .menu li + li{
       margin-left: 65px;
 }
-    
+.icon_menu{
+      width: 15%;
+      position: absolute;
+      top: 55px;
+      right: 0;
+      display: none;
+}

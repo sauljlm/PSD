@@ -310,6 +310,7 @@ template {
 
 #header {
   position: relative;
+  max-width: 960px;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
@@ -345,6 +346,13 @@ template {
 
 .menu li + li {
   margin-left: 65px; }
+
+.icon_menu {
+  width: 15%;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  display: none; }
 
 body {
   margin: 0;
@@ -446,7 +454,7 @@ a {
 
 #footer-menu {
   list-style: none;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   width: 100%;
   margin: 0 auto; }
 
@@ -473,20 +481,13 @@ a {
   max-width: 100%;
   height: auto;
   position: absolute;
-  right: 0;
-  width: 120px;
-  bottom: -15px; }
+  right: 2%;
+  bottom: -15px;
+  width: 120px; }
 
 .container-footer {
   position: relative; }
 
-/*.img-container {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  left: 850px;
-  bottom: 30px;
-}*/
 /****************
         Info
 *****************/
@@ -518,7 +519,7 @@ a {
   line-height: 20px; }
 
 #info-box img + img {
-  margin-left: 10px; }
+  margin-left: 1.5%; }
 
 /****************
     Portfolio
@@ -553,5 +554,28 @@ a {
 
   .menu li + li {
     margin-left: 40px; } }
+@media (max-width: 768px) {
+  #portfolio .portfolio_img {
+    width: 46%;
+    padding: 2%; }
+  #portfolio img + img {
+    margin-left: 0; }
+
+  .menu {
+    display: none; }
+
+  .blog-box2 {
+    display: none; }
+
+  .blog-box1 {
+    width: 100%;
+    margin-right: 0; }
+
+  .box {
+    width: 100%;
+    margin-left: 0; }
+
+  .icon_menu {
+    display: block; } }
 
 /*# sourceMappingURL=styles.css.map */
