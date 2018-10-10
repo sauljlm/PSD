@@ -350,7 +350,7 @@ template {
 .icon_menu {
   width: 15%;
   position: absolute;
-  top: 55px;
+  top: 40px;
   right: 0;
   display: none; }
 
@@ -577,5 +577,26 @@ a {
 
   .icon_menu {
     display: block; } }
+@media (max-width: 576px) {
+  .icon_menu {
+    width: 25%; }
+
+  #portfolio .portfolio_img {
+    width: 96%;
+    padding: 2%; }
+
+  #footer-menu {
+    display: none; }
+
+  .container-footer p {
+    text-align: center; }
+
+  .footer-logo {
+    width: 100px;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: block;
+    margin: 20px auto; } }
 
 /*# sourceMappingURL=styles.css.map */
