@@ -51,9 +51,39 @@
       margin-left: 65px;
 }
 .icon_menu{
-      width: 15%;
+      width: 5%;
       position: absolute;
       top: 55px;
-      right: 0;
+      right: 5%;
+      display: none;
+}
+//btn
+.open{
+      display: block;
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 40%;
+      height: auto;
+      margin: 16.5% 0 0 60%;
+      position: absolute;
+}
+.menu-open{
+      padding-right: 5%;
+}
+.open li{
+      list-style: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+.open ul a{
+      text-decoration: none;
+      color: #fe9b00;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      &:hover{
+            color: black;
+      }
+}
+.close{
       display: none;
 }

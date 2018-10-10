@@ -11,6 +11,9 @@ body{
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 //helpers//
 .clearfix::after{
     display: block;

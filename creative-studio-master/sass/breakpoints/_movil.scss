@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+    .icon_menu {
+        width: 12%; 
+    }
+  
+    #portfolio .portfolio_img {
+        width: 96%;
+        padding: 2%; 
+    }
+  
+    #footer-menu {
+        display: none; 
+    }
+  
+    .container-footer p {
+        text-align: center; 
+    }
+  
+    .footer-logo {
+        width: 100px;
+        position: relative;
+        right: auto;
+        bottom: auto;
+        display: block;
+        margin: 20px auto; 
+    } 
+    
+    .open{
+        width: 60%;
+        margin: 16.5% 0 0 40%;
+    }
+    .menu-open{
+
+        padding-top: 10%;
+    }
+    .open ul a{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .icon_menu{
+        width: 10%;
+
+    }
+}
