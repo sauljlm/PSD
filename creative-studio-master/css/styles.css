@@ -310,7 +310,7 @@ template {
 
 #header {
   position: relative;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
   border-bottom: 1px solid #c0c0c0;
@@ -352,7 +352,8 @@ body {
 
 .container {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 2%; }
 
 a {
   text-decoration: none; }
@@ -386,7 +387,9 @@ a {
   padding-bottom: 10px;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-bottom: 12px;
+  border-bottom: 6px solid #090909; }
 
 .box {
   width: 29%;
@@ -396,9 +399,9 @@ a {
 .box li {
   list-style: none; }
 
-.box li p::before {
+.box ul li::before {
   position: absolute;
-  content: url("../img/Dise├▒o/checkicon.jpg");
+  content: url("../../img/Dise├▒o/checkicon.jpg");
   top: 0;
   left: -30px; }
 
@@ -491,11 +494,11 @@ a {
   float: left; }
 
 .blog-box1 {
-  width: 680px;
+  width: 70%;
   margin-right: 50px; }
 
 .blog-box2 {
-  width: 230px; }
+  width: 23%; }
 
 #info-box h3 img {
   margin-right: 20px;
@@ -524,13 +527,14 @@ a {
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 20px;
   padding-bottom: 30px; }
-  #portfolio img {
+  #portfolio .portfolio_img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    display: block;
+    float: left; }
 
-#portfolio h2 img {
+.arrow {
   margin-right: 20px;
-  height: 10px;
   padding-bottom: 3px; }
 
 #portfolio h2 {
@@ -540,5 +544,14 @@ a {
 
 #portfolio img + img {
   margin-left: 28px; }
+
+@media (max-width: 1000px) {
+  #portfolio .portfolio_img {
+    width: 23%; }
+  #portfolio img + img {
+    margin-left: 2.5%; }
+
+  .menu li + li {
+    margin-left: 40px; } }
 
 /*# sourceMappingURL=styles.css.map */

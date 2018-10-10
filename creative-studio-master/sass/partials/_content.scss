@@ -7,6 +7,8 @@
       text-transform: uppercase;
       font-size: 18px;
       font-weight: bold;
+      padding-bottom: 12px;
+      border-bottom: 6px solid #090909;
 }
 .box{
       width: 29%;
@@ -17,9 +19,9 @@
       .box li {
       list-style: none;
       }
-      .box li p::before{
+      .box ul li::before{
             position: absolute;
-            content: url('../img/Diseño/checkicon.jpg');
+            content: url('../../img/Diseño/checkicon.jpg');
             top: 0;
             left: -30px;
       }
